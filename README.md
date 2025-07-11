@@ -200,7 +200,7 @@ WHERE director IS NULL;
 
 ```sql
 SELECT * 
-FROM netflix
+FROM netflix_titles
 WHERE casts LIKE '%Salman Khan%'
    AND TRY_CAST(release_year AS INT) > YEAR(GETDATE()) - 10;
 ```
