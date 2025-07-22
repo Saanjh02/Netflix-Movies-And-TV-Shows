@@ -1,0 +1,7 @@
+*.sql linguist-language=TSQL
+
+# Ignore vendor/generated files so they don't count towards stats
+*.min.js linguist-vendored
+node_modules/* linguist-vendored
+vendor/* linguist-vendored
+
